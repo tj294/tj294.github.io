@@ -1,10 +1,15 @@
+body {
+	font-family:  sans-serif;
+}
 h1, h2 {
 	text-align: center;
 }
 .header-bar {
 	width: 80%;
+	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: black;
 	color: white;
+	font-family: serif;
 }
