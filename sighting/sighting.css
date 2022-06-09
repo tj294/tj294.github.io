@@ -34,21 +34,35 @@ input:not(:last-of-type) {
 .inline {
 	display: inline;
 }
-.header-bar {
-	width: 80%;
-	max-width: 600px;
-	margin: 0 auto;
-}
-img {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 500px;
-	margin-bottom: 0;
-	align-items: center;
-}
 
 .radio:not(:last-of-type) {
 	margin-top: 5px;
+}
+fieldset {
+	margin: 5px;
+	padding-top: 10px;
+}
+
+.inline {
+	vertical-align: auto;
+}
+
+input, textarea, select {
+	background-color: #44475a;
+	border: 1px solid #282a36;
+	color: #f8f8f2
+}
+label {
+	margin: 10px 0;
+}
+select {
+	min-height: 2em;
+}
+
+textarea {
+	margin: 10px 0 0 0;
+	width: 100%;
+	min-height: 2em;
 }
 
 input[id='submit'] {
