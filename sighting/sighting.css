@@ -72,6 +72,14 @@ input[id='submit'] {
 	margin: 0 auto;
 }
 
+input[id='submit']:hover {
+	background-color: #bd93f9;
+}
+
+input[id='submit']:active {
+	background-color: #bd93f9;
+}
+
 footer {
 	text-align: center;
 }
