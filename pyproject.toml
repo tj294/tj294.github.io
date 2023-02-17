@@ -2,7 +2,7 @@
 name = "Example Project"
 version = "0.0.0"
 description = "Example Project"
-authors = ["JafarAstro" <tj294@exeter.ac.uk>]
+authors = ["JafarAstro <tj294@exeter.ac.uk>"]
 
 [tools.poetry.dependencies]
 python = ">=3.8, <3.12"
