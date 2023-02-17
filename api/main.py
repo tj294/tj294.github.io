@@ -1,12 +1,11 @@
 from fastapi import FastAPI
-import datetime
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 async def homepage():
-    time = datetime.datetime.now()
-    return f"The time is {time}"
+    return f"<h1>Hello, world!</h1>"
 
 @app.get("/hello")
 async def hello():
