@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "Example Project"
+version = "0.0.0"
+description = "Example Project"
+authors = ["JafarAstro" <tj294@exeter.ac.uk>]
